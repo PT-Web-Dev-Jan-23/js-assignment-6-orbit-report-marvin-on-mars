@@ -9,6 +9,7 @@ import { Satellite } from '../satellite';
 
 export class OrbitListComponent implements OnInit {
 
+	highlight: boolean = true
   @Input() satellites: Satellite[];
   constructor() { }
 
